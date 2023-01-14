@@ -9,7 +9,6 @@ public class CategoryTest {
         final var expectedName = "Filmes";
         final var expectedDescription = "A categoria mais assistida";
         final var expectedIsActive = true;
-
         final var actualCategory =
                 Category.newCategory(expectedName, expectedDescription, expectedIsActive);
 
